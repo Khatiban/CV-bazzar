@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="61.0dip"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_main"
+        android:layout_width="wrap_content"
+        android:layout_height="60.0dip">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/playbutton_grid"
+            android:background="@color/app_color_hint"
+            android:id="@+id/sss"/>
+
+        <TextView
+            android:id="@+id/file_name"
+            android:layout_width="fill_parent"
+            android:layout_height="20.0dip"
+            android:layout_toRightOf="@+id/sss"
+            android:lines="1"
+            android:paddingLeft="5.0dip"
+            android:paddingRight="5.0dip"
+            android:singleLine="true"
+            android:layout_centerVertical="true"
+            android:text="Not Name"
+            android:textColor="@android:color/black"
+            android:textSize="13.0dip" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentRight="true"
+        android:background="@color/app_color_hint" />
+</LinearLayout>

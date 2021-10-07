@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="15dp"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/setting_dialog_bg"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip"
+            android:layout_marginTop="15.0dip"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="center_vertical|right">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="تنظیمات پیشرفته"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:gravity="right"
+                    android:textStyle="bold" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/app_color_hint"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_below="@+id/textView2"
+                    android:layout_marginLeft="15dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:layout_gravity="right"
+                android:gravity="right">
+
+                <EditText
+                    android:id="@+id/serach_item"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:background="@drawable/search_line"
+                    android:hint="30"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:imeOptions="actionDone"
+                    android:digits="0123456789"
+                    android:inputType="phone"
+                    android:singleLine="true"
+                    android:textColor="@color/app_color"
+                    android:textColorHighlight="@color/white"
+                    android:textColorHint="@color/app_color_hint"
+                    android:textColorLink="@color/white" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:layout_gravity="right"
+                android:gravity="right">
+
+                <TextView
+                    android:id="@+id/help_setting"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="با زیاد کردن این عدد حجم ویدیو را کمتر کنید . \n توجه : بیشتر کردن عدد از 30 ممکن است با اٌفت کیفیت مواجع شوید محدوده عدد 25 تا 40 است ."/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/app_color_hint"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_below="@+id/textView2"
+                android:layout_marginLeft="15dp"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="5.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/rlCancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/center"
+                android:background="@drawable/btn_selector"
+                android:padding="10.0dip">
+
+                <TextView
+                    android:id="@+id/tvCancel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="لغو"
+                    android:gravity="center"
+                    android:textColor="@color/black_app"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:id="@+id/center"
+                android:layout_height="wrap_content"
+                android:background="@color/app_color_hint"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="15dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="15dp"/>
+
+            <FrameLayout
+                android:id="@+id/rlSave"
+                android:layout_width="match_parent"
+                android:layout_toRightOf="@+id/center"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_selector"
+                android:padding="10.0dip">
+
+                <TextView
+                    android:id="@+id/tvSave"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ذخیره"
+                    android:gravity="center"
+                    android:textColor="@color/black_app"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

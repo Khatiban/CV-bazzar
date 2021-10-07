@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#ff000000</color>
+    <color name="black_app">#000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="blue">#ffbbcae4</color>
+    <color name="navy_blue">#ff127efc</color>
+    <color name="red">#fffc4a46</color>
+    <color name="gray">#ffe0e0e0</color>
+    <color name="gray2">#f7f7f7</color>
+    <color name="list_bg_dark">#ff2cc7b7</color>
+    <color name="list_bg_light">#ff4bcfc2</color>
+    <color name="app_color">#6bb47f</color>
+    <color name="app_color2">#a5d9b3</color>
+    <color name="app_color_hint">#6493d1ae</color>
+    <color name="bt_text">#ff636363</color>
+    <color name="default_screen_bg">#ff20324a</color>
+    <color name="rounded_container_bg">#80000000</color>
+    <color name="rounded_container_border">#ff3b3f44</color>
+    <color name="light_gray_header_color">#ff646663</color>
+    <color name="green">#ff00ff00</color>
+    <color name="blue_light">#ffe1938c</color>
+    <color name="blue2">#ff0000ff</color>
+    <color name="trans">#00000000</color>
+    <color name="trans_list">#0a000000</color>
+    <color name="colorAccent">#f1f1f1</color>
+    <color name="color_black_transparent">#11ffffff</color>
+
+    <color name="black_transparent">#14000000</color>
+    <color name="grey_app">#c7c7c7</color>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="active_indicator">@android:color/white</color>
+    <color name="inactive_indicator">#4D000000</color>
+    <color name="start_transparent">#2c000000</color>
+    <color name="p1">#6493d1ae</color>
+    <color name="p2">#63a675</color>
+
+
+    <color name="multiple_image_select_primary">#6bb47f</color>
+    <color name="multiple_image_select_primaryDark">#559166</color>
+    <color name="multiple_image_select_primaryLight">#C8E6C9</color>
+    <color name="multiple_image_select_accent">#6bb47f</color>
+
+    <color name="multiple_image_select_primaryText">#212121</color>
+    <color name="multiple_image_select_secondaryText">#727272</color>
+    <color name="multiple_image_select_divider">#B6B6B6</color>
+
+    <color name="multiple_image_select_toolbarPrimaryText">#FFFFFF</color>
+
+    <color name="multiple_image_select_albumTextBackground">#99FFFFFF</color>
+    <color name="multiple_image_select_imageSelectBackground">#000000</color>
+
+    <color name="multiple_image_select_buttonText">#FFFFFF</color>
+
+</resources>

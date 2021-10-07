@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="auth_client_using_bad_version_title">An application attempted to use a bad version of Google Play Services.</string>
+    <string name="auth_client_needs_enabling_title">An application requires Google Play Services to be enabled.</string>
+    <string name="auth_client_needs_installation_title">An application requires installation of Google Play Services.</string>
+    <string name="auth_client_needs_update_title">An application requires an update for Google Play Services.</string>
+    <string name="auth_client_play_services_err_notification_msg">Google Play services error</string>
+    <string name="auth_client_requested_by_msg">Requested by %1$s</string>
+    <string name="location_client_powered_by_google">Powered by Google</string>
+    <string name="ga_trackingId">UA-65295652-1</string>
+    <string name="hello">CV</string>
+    <string name="app_name">CV</string>
+    <string name="compressorbanner">ca-app-pub-5349070368803846/8523686816</string>
+    <string name="compressorfull">ca-app-pub-5349070368803846/7841978810</string>
+    <string name="folder_name">CV</string>
+    <string name="addUrl1">market://details?id=com.stupeflix.legenf</string>
+
+
+    <string name="album_view">انتخاب کنید</string>
+    <string name="image_view">انتخاب کنید</string>
+
+    <string name="add">افزودن</string>
+    <string name="selected">انتخاب</string>
+    <string name="limit_exceeded">حداکثر %d عکس می توانید انتخاب کنید</string>
+
+    <string name="error_null_cursor">اوه ، با مشکل مواجع شد!</string>
+
+    <!--Request Permission-->
+    <string name="permission_info">App requires permission to Storage to view images.</string>
+    <string name="permission_force">App requires permission to Storage to view images. Tap Settings and go to Permissions to grant permission.</string>
+    <string name="permission_ok">باشه</string>
+    <string name="permission_settings">تنظیمات</string>
+    <string name="permission_package">package</string>
+
+</resources>
